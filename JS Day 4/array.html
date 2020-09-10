@@ -1,0 +1,38 @@
+<html>
+<head>
+    <script>
+        let students = 
+            [    
+                {
+                    name: 'Omkar', 
+                    age: 19, 
+                    country: 'India',
+                    hobbies: ['gaming','swimming','coding']
+                },
+                {
+                    name: 'Kshitij', 
+                    age: 32, 
+                    country: 'Japan',
+                    hobbies: ['dancing','swimming','coding']
+                },
+                {
+                    name: 'Varun', 
+                    age: 18, 
+                    country: 'India',
+                    hobbies: ['dancing','acting','coding']
+                }
+            ]
+        console.log(students);
+        console.log("Age less than 30");
+        let someUsers = students.filter(item => item.age < 30);
+        console.log(someUsers);
+        console.log("Conutry India");
+        let someUsers1 = students.filter(item => item.country =="India");
+        console.log(someUsers1);
+         
+
+    </script>
+    
+</head>
+<body>Check console for details!!</body>
+</html>
